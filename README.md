@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was built using rails 5rc1 following a udemy tutorial by Mashrur Hossain.
 
-Things you may want to cover:
+##Installation
+- git clone
+- bundle
+- rails db:migrate
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Challenges
+The app has a subscription payment set up with devise when you register a user.
+So in order for this to be achieved the devise controller was edited.  
+Ran into issues setting environment variables as I'm using zsh and needed to access the .zshrc file not the .bashrc file to store the environment variables.
