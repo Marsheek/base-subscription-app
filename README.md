@@ -1,7 +1,7 @@
 # README
 
 This is a base subscription app configured that has had the devise controller and registration views
-configured with stripe payments. In order to configure to the desired payment settings refer to https://stripe.com/docs/subscriptions/tutorial
+configured with stripe payments. In order to configure to the desired payment settings refer to https://stripe.com/docs/subscriptions/tutorial updating the stripe keys from test to live.
 
 ##Design
 The design is plain bootstrap and set up with a home page with two different signup buttons and some text.
